@@ -18,6 +18,7 @@ public class Message {
      */
     @GetMapping("/")
     public String displayText() {
+        System.out.println("ABC");
         return "Hello! This is a text message from the Spring Controller.";  //
     }
 
